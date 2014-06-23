@@ -1,111 +1,190 @@
 {
   "css": {
     "isDir": true, 
+    "kind": "folder", 
+    "mDate": "2014-06-23 14:08:20", 
     "name": "css", 
     "subFolder": {
       "fonts": {
         "isDir": true, 
+        "kind": "folder", 
+        "mDate": "2014-06-23 13:56:34", 
         "name": "fonts", 
         "subFolder": {
           "fontawesome-webfont.svg": {
             "isDir": false, 
+            "kind": "svg", 
+            "mDate": "2014-06-23 13:54:56", 
+            "name": "fontawesome-webfont.svg", 
             "url": "http://127.0.0.1/css/fonts/fontawesome-webfont.svg", 
-            "name": "fontawesome-webfont.svg"
+            "size": "158.2 KB"
           }, 
           "Titillium-webfont.svg": {
             "isDir": false, 
+            "kind": "svg", 
+            "mDate": "2014-06-23 13:54:56", 
+            "name": "Titillium-webfont.svg", 
             "url": "http://127.0.0.1/css/fonts/Titillium-webfont.svg", 
-            "name": "Titillium-webfont.svg"
+            "size": "46.9 KB"
           }, 
           "Titillium-webfont.woff": {
             "isDir": false, 
+            "kind": "woff", 
+            "mDate": "2014-06-23 13:54:56", 
+            "name": "Titillium-webfont.woff", 
             "url": "http://127.0.0.1/css/fonts/Titillium-webfont.woff", 
-            "name": "Titillium-webfont.woff"
+            "size": "21.9 KB"
           }, 
           "fontawesome-webfont.woff": {
             "isDir": false, 
+            "kind": "woff", 
+            "mDate": "2014-06-23 13:54:56", 
+            "name": "fontawesome-webfont.woff", 
             "url": "http://127.0.0.1/css/fonts/fontawesome-webfont.woff", 
-            "name": "fontawesome-webfont.woff"
+            "size": "33.6 KB"
           }
-        }
+        }, 
+        "size": "-"
       }, 
       "wuala_theme.css": {
         "isDir": false, 
+        "kind": "css", 
+        "mDate": "2014-06-23 13:54:56", 
+        "name": "wuala_theme.css", 
         "url": "http://127.0.0.1/css/wuala_theme.css", 
-        "name": "wuala_theme.css"
+        "size": "463 B"
       }, 
       "main.css": {
         "isDir": false, 
+        "kind": "css", 
+        "mDate": "2014-06-23 13:54:56", 
+        "name": "main.css", 
         "url": "http://127.0.0.1/css/main.css", 
-        "name": "main.css"
+        "size": "603 B"
       }, 
       "wuala_foundation.min.css": {
         "isDir": false, 
+        "kind": "css", 
+        "mDate": "2014-06-23 13:54:56", 
+        "name": "wuala_foundation.min.css", 
         "url": "http://127.0.0.1/css/wuala_foundation.min.css", 
-        "name": "wuala_foundation.min.css"
+        "size": "44.8 KB"
       }, 
       "wuala_style-all.min.css": {
         "isDir": false, 
+        "kind": "css", 
+        "mDate": "2014-06-23 14:08:00", 
+        "name": "wuala_style-all.min.css", 
         "url": "http://127.0.0.1/css/wuala_style-all.min.css", 
-        "name": "wuala_style-all.min.css"
+        "size": "47.9 KB"
       }
-    }
+    }, 
+    "size": "-"
   }, 
   "img": {
     "isDir": true, 
+    "kind": "folder", 
+    "mDate": "2014-06-23 13:54:56", 
     "name": "img", 
     "subFolder": {
       "Folder.svg": {
         "isDir": false, 
+        "kind": "svg", 
+        "mDate": "2014-06-23 13:54:56", 
+        "name": "Folder.svg", 
         "url": "http://127.0.0.1/img/Folder.svg", 
-        "name": "Folder.svg"
+        "size": "1.0 KB"
       }, 
       "Files.svg": {
         "isDir": false, 
+        "kind": "svg", 
+        "mDate": "2014-06-23 13:54:56", 
+        "name": "Files.svg", 
         "url": "http://127.0.0.1/img/Files.svg", 
-        "name": "Files.svg"
+        "size": "2.1 KB"
       }
-    }
+    }, 
+    "size": "-"
   }, 
   "js": {
     "isDir": true, 
+    "kind": "folder", 
+    "mDate": "2014-06-23 16:27:31", 
     "name": "js", 
     "subFolder": {
       "jquery-1.11.1.min.js": {
         "isDir": false, 
+        "kind": "js", 
+        "mDate": "2014-06-23 13:54:56", 
+        "name": "jquery-1.11.1.min.js", 
         "url": "http://127.0.0.1/js/jquery-1.11.1.min.js", 
-        "name": "jquery-1.11.1.min.js"
+        "size": "93.5 KB"
       }, 
       "wuala_theme.js": {
         "isDir": false, 
+        "kind": "js", 
+        "mDate": "2014-06-23 16:27:31", 
+        "name": "wuala_theme.js", 
         "url": "http://127.0.0.1/js/wuala_theme.js", 
-        "name": "wuala_theme.js"
+        "size": "7.5 KB"
       }, 
       "jquery-1.11.1.js": {
         "isDir": false, 
+        "kind": "js", 
+        "mDate": "2014-06-23 13:54:56", 
+        "name": "jquery-1.11.1.js", 
         "url": "http://127.0.0.1/js/jquery-1.11.1.js", 
-        "name": "jquery-1.11.1.js"
+        "size": "276.1 KB"
       }, 
       "main.js": {
         "isDir": false, 
+        "kind": "js", 
+        "mDate": "2014-06-23 14:34:08", 
+        "name": "main.js", 
         "url": "http://127.0.0.1/js/main.js", 
-        "name": "main.js"
+        "size": "4.6 KB"
       }
-    }
+    }, 
+    "size": "-"
+  }, 
+  "README.md": {
+    "isDir": false, 
+    "kind": "md", 
+    "mDate": "2014-06-23 15:29:54", 
+    "name": "README.md", 
+    "url": "http://127.0.0.1/README.md", 
+    "size": "308 B"
+  }, 
+  "LICENSE": {
+    "isDir": false, 
+    "kind": "", 
+    "mDate": "2014-06-23 15:05:01", 
+    "name": "LICENSE", 
+    "url": "http://127.0.0.1/LICENSE", 
+    "size": "1.0 KB"
   }, 
   "browse.json": {
     "isDir": false, 
+    "kind": "json", 
+    "mDate": "2014-06-23 16:32:47", 
+    "name": "browse.json", 
     "url": "http://127.0.0.1/browse.json", 
-    "name": "browse.json"
+    "size": "5.1 KB"
   }, 
   "generator.py": {
     "isDir": false, 
+    "kind": "py", 
+    "mDate": "2014-06-23 16:35:44", 
+    "name": "generator.py", 
     "url": "http://127.0.0.1/generator.py", 
-    "name": "generator.py"
+    "size": "2.5 KB"
   }, 
   "index.html": {
     "isDir": false, 
+    "kind": "html", 
+    "mDate": "2014-06-23 14:24:58", 
+    "name": "index.html", 
     "url": "http://127.0.0.1/index.html", 
-    "name": "index.html"
+    "size": "601 B"
   }
 }

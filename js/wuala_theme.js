@@ -183,19 +183,20 @@ WualaDisplay.prototype.AddElement = function(list, element, displayName, onBrows
 
 	//Size
 	th = document.createElement("td");
-	th.innerHTML = "-";
+	th.innerHTML = element.size;
+
 	th.className = "hide-for-small";
 	tr.appendChild(th);
 
 	//Mdate
 	th = document.createElement("td");
-	th.innerHTML = "-";
+	th.innerHTML = element.mDate;
 	th.className = "hide-for-small";
 	tr.appendChild(th);
 
 	//kind
 	th = document.createElement("td");
-	th.innerHTML = "-";
+	th.innerHTML = element.kind;
 	th.className = "hide-for-small";
 	tr.appendChild(th);
 
