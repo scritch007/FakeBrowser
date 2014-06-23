@@ -1,0 +1,111 @@
+{
+  "css": {
+    "isDir": true, 
+    "name": "css", 
+    "subFolder": {
+      "fonts": {
+        "isDir": true, 
+        "name": "fonts", 
+        "subFolder": {
+          "fontawesome-webfont.svg": {
+            "isDir": false, 
+            "url": "http://127.0.0.1/css/fonts/fontawesome-webfont.svg", 
+            "name": "fontawesome-webfont.svg"
+          }, 
+          "Titillium-webfont.svg": {
+            "isDir": false, 
+            "url": "http://127.0.0.1/css/fonts/Titillium-webfont.svg", 
+            "name": "Titillium-webfont.svg"
+          }, 
+          "Titillium-webfont.woff": {
+            "isDir": false, 
+            "url": "http://127.0.0.1/css/fonts/Titillium-webfont.woff", 
+            "name": "Titillium-webfont.woff"
+          }, 
+          "fontawesome-webfont.woff": {
+            "isDir": false, 
+            "url": "http://127.0.0.1/css/fonts/fontawesome-webfont.woff", 
+            "name": "fontawesome-webfont.woff"
+          }
+        }
+      }, 
+      "wuala_theme.css": {
+        "isDir": false, 
+        "url": "http://127.0.0.1/css/wuala_theme.css", 
+        "name": "wuala_theme.css"
+      }, 
+      "main.css": {
+        "isDir": false, 
+        "url": "http://127.0.0.1/css/main.css", 
+        "name": "main.css"
+      }, 
+      "wuala_foundation.min.css": {
+        "isDir": false, 
+        "url": "http://127.0.0.1/css/wuala_foundation.min.css", 
+        "name": "wuala_foundation.min.css"
+      }, 
+      "wuala_style-all.min.css": {
+        "isDir": false, 
+        "url": "http://127.0.0.1/css/wuala_style-all.min.css", 
+        "name": "wuala_style-all.min.css"
+      }
+    }
+  }, 
+  "img": {
+    "isDir": true, 
+    "name": "img", 
+    "subFolder": {
+      "Folder.svg": {
+        "isDir": false, 
+        "url": "http://127.0.0.1/img/Folder.svg", 
+        "name": "Folder.svg"
+      }, 
+      "Files.svg": {
+        "isDir": false, 
+        "url": "http://127.0.0.1/img/Files.svg", 
+        "name": "Files.svg"
+      }
+    }
+  }, 
+  "js": {
+    "isDir": true, 
+    "name": "js", 
+    "subFolder": {
+      "jquery-1.11.1.min.js": {
+        "isDir": false, 
+        "url": "http://127.0.0.1/js/jquery-1.11.1.min.js", 
+        "name": "jquery-1.11.1.min.js"
+      }, 
+      "wuala_theme.js": {
+        "isDir": false, 
+        "url": "http://127.0.0.1/js/wuala_theme.js", 
+        "name": "wuala_theme.js"
+      }, 
+      "jquery-1.11.1.js": {
+        "isDir": false, 
+        "url": "http://127.0.0.1/js/jquery-1.11.1.js", 
+        "name": "jquery-1.11.1.js"
+      }, 
+      "main.js": {
+        "isDir": false, 
+        "url": "http://127.0.0.1/js/main.js", 
+        "name": "main.js"
+      }
+    }
+  }, 
+  "browse.json": {
+    "isDir": false, 
+    "url": "http://127.0.0.1/browse.json", 
+    "name": "browse.json"
+  }, 
+  "generator.py": {
+    "isDir": false, 
+    "url": "http://127.0.0.1/generator.py", 
+    "name": "generator.py"
+  }, 
+  "index.html": {
+    "isDir": false, 
+    "url": "http://127.0.0.1/index.html", 
+    "name": "index.html"
+  }
+}
