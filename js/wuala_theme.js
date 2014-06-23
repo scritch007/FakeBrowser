@@ -129,6 +129,13 @@ WualaDisplay.prototype.buildButtonDiv = function(element, displayName, 	onBrowse
 
 WualaDisplay.prototype.AddElement = function(list, element, displayName, onBrowseCB, onDownloadCB, onDeleteCB){
 	var name = displayName;
+	if (null == element){
+		element = {
+			size: "-",
+			kind: "-",
+			mDate: "-"
+		}
+	}
 	var tr = document.createElement("tr");
 	tr.className = "w-open-path pointer ";
 	//TODO TO REMOVE AFTER REWRITING IT
