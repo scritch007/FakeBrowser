@@ -45,3 +45,22 @@
 .browseable{
 	cursor: pointer;
 }
+
+th.browse-plus{
+	width:50px;
+}
+th.browse-action{
+	width: 200px;
+}
+th.browse-type{
+	width: 50px;
+}
+th.browse-kind{
+	width: 50px;
+}
+th.browse-mdate{
+	width: 200px;
+}
+th.browse-size{
+	width:100px;
+}
