@@ -41,3 +41,7 @@
 	line-height: 1.7em;
 	vertical-align: bottom;
 }
+
+.browseable{
+	cursor: pointer;
+}

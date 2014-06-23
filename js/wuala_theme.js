@@ -173,6 +173,7 @@ WualaDisplay.prototype.AddElement = function(list, element, displayName, onBrows
 	tr.appendChild(td);
 
 	if (onBrowseCB){
+		tr.className = "browseable";
 		img.className = "wred icon-large icon-folder-close";
 		tr.onclick = function(path, event){
 			onBrowseCB(event);
