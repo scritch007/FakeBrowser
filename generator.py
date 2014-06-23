@@ -6,7 +6,7 @@ from collections import OrderedDict
 
 if __name__ == "__main__":
 	if 4 != len(sys.argv):
-		print("usage: %s path_to_browse url_prefix outputFile", sys.argv[0])
+		print("usage: %s path_to_browse url_prefix outputFile" % sys.argv[0])
 		sys.exit(1)
 	path = sys.argv[1]
 
