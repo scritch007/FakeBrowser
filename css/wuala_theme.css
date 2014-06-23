@@ -35,3 +35,9 @@
 .text > input{
 	display: inline-block;
 }
+
+.icon-home {
+	font-size: 1.4em;
+	line-height: 1.7em;
+	vertical-align: bottom;
+}
