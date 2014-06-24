@@ -41,7 +41,8 @@ function init(){
 			//Set the global variable
 			results = result;
 			display("/");
-		}
+		},
+                dataType:"json"
 	});
 	//display("/");
 }
