@@ -25,8 +25,9 @@ WualaDisplay.prototype.GetBrowsingPathElement = function(path, onBrowseChangeCB)
 	nav_bar.appendChild(nav);
 	nav.className = "large-11 columns";
 	nav.id = "breadcrumbs";
+        var splitted_chroot = chroot.split("/");
 	var splitted_path = path.split("/");
-	var nav_elements = splitted_path.slice(1, splitted_path.length -1);
+	var nav_elements = splitted_path.slice(splitted_chroot.length -1 , splitted_path.length -1);
 	nav.innerHTML = "";
 	var nav_ul = document.createElement("ul");
 	nav_ul.className = "breadcrumbs";
@@ -34,7 +35,7 @@ WualaDisplay.prototype.GetBrowsingPathElement = function(path, onBrowseChangeCB)
 	var current_nav_element = this.createNavElement();
 	current_nav_element.onclick = function(path){
 		onBrowseChangeCB(path);
-	}.bind(current_nav_element, "/");
+	}.bind(current_nav_element, chroot);
 	nav_ul.appendChild(current_nav_element);
 	for (var i=0; i<nav_elements.length; i++){
 		current_nav_element = this.createNavElement(nav_elements[i]);

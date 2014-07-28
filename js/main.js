@@ -31,6 +31,7 @@ function setPopup(popup){
 }
 
 function init(){
+        queryString = getQueryString();
 	displayTheme = new WualaDisplay();
 	mainWindow = document.getElementById("window_popup_id");
 	$.ajax({
@@ -40,11 +41,34 @@ function init(){
 			current_folder = "/";
 			//Set the global variable
 			results = result;
-			display("/");
+                        var path = queryString["path"];
+                        if (undefined == path ){
+                            path = "/";
+                        }else{
+                            path = "/" + path;
+
+                        }
+	                if ("/" != path.charAt(path.length - 1)){
+	                	path = path + "/";
+	                }
+                        chroot = path;
+
+			display(path);
 		},
                 dataType:"json"
 	});
 	//display("/");
+}
+var queryString = null;
+var chroot = "/";
+function getQueryString() {
+  var result = {}, queryString = location.search.slice(1),
+      re = /([^&=]+)=([^&]*)/g, m;
+
+  while (m = re.exec(queryString)) {
+    result[decodeURIComponent(m[1])] = decodeURIComponent(m[2]);
+  }
+  return result;
 }
 
 function display(path){
@@ -53,8 +77,8 @@ function display(path){
 	}
 	displayTheme.GetBrowsingPathElement(path, display);
 	var elementListObject = displayTheme.GetFilesListElement(path);
-
-	if ("/" != path){
+        console.log("chroot = !" + chroot + "!" + path + "!");
+	if (chroot != path){
 		displayTheme.AddElement(elementListObject, null, "..",
 			function(event){
 				var path = this;
