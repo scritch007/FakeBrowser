@@ -7,9 +7,19 @@
 	<link rel="stylesheet" type="text/css" href="css/wuala_style-all.min.css"/>
 	<link rel="stylesheet" type="text/css" href="css/wuala_theme.css"/>
 	<link rel="stylesheet" type="text/css" href="css/main.css"/>
-
+	<script>
+	function loaded(){
+		if ((-1 == location.pathname.indexOf("index.html")) && (location.pathname[location.pathname.length-1] != "/"))
+		{
+			//redirect from javascript poor host may not be able to this properly
+			var url = location.origin + location.pathname + "/" + location.search;
+			window.location = url;
+		}
+		init();
+	}
+	</script>
 </head>
-<body onload="init()" class="metro">
+<body onload="loaded()" class="metro">
 <div id="navigation_bar" class="large-11 columns"></div>
 <div id="browsing"></div>
 <div id="window_popup_id"></div>
