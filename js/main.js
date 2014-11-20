@@ -114,7 +114,11 @@ function display(path){
 
 		if (element.isDir){
 			browseCB = function(path, event){
-				display(path);
+                                if (element.subFolder.hasOwnProperty("index.html")){
+					window.open(element.subFolder["index.html"].url);
+				}else{
+					display(path);
+				}
 			}.bind(element, element_path);
 		}else{
 			downloadCB = function(path, event){
