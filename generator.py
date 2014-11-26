@@ -58,6 +58,7 @@ if __name__ == "__main__":
         for key in currentDictSplitted:
             if 0 != len(key):
                 workOn = workOn[key]["subFolder"]
+        dirs.sort()
         for d in dirs:
             if d.startswith("."):
                 continue
@@ -70,6 +71,7 @@ if __name__ == "__main__":
                 "mDate": datetime.datetime.fromtimestamp(os.path.getmtime(os.path.join(root, d))).strftime('%Y-%m-%d %H:%M:%S')
             }
         dirs[:] = [d for d in dirs if not d.startswith(".")]
+        files.sort()
         for f in files:
             workOn[f] = {
                 "isDir": False,
