@@ -114,8 +114,8 @@ function display(path){
 
 		if (element.isDir){
 			browseCB = function(path, event){
-                                if (element.subFolder && element.subFolder.hasOwnProperty("index.html")){
-					window.open(element.subFolder["index.html"].url);
+                                if (this.subFolder && this.subFolder.hasOwnProperty("index.html")){
+					window.open(this.subFolder["index.html"].url);
 				}else{
 					display(path);
 				}
