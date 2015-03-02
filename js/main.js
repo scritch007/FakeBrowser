@@ -52,7 +52,9 @@ function init(){
 	                	path = path + "/";
 	                }
                         chroot = path;
-
+			if (0 != window.location.hash.length){
+                           path += window.location.hash.slice(2)
+                        }
 			display(path);
 		},
                 dataType:"json"
@@ -91,6 +93,7 @@ function display(path){
 				{
 					path = "/";
 				}
+                                window.location = "#" + path.slice(chroot.length-1);
 				display(path);
 			}.bind(path)
 		);
@@ -117,6 +120,7 @@ function display(path){
                                 if (this.subFolder && this.subFolder.hasOwnProperty("index.html")){
 					window.open(this.subFolder["index.html"].url);
 				}else{
+                                        window.location = "#" + path.slice(chroot.length-1);
 					display(path);
 				}
 			}.bind(element, element_path);
